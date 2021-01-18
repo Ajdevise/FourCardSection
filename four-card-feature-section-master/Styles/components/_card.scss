@@ -1,0 +1,28 @@
+.card{
+    background-color: white;
+    box-shadow: 0 0 5px 3px rgba($color-dark-blue, .04);
+    border-radius: 5px;
+    padding: 2rem;
+    display: grid;
+
+    &--1{
+        border-top: 4px solid $color-red;
+    }
+
+    &--2{
+        border-top: 4px solid $color-cyan;
+    }
+
+    &--3{
+        border-top: 4px solid $color-blue;
+    }
+
+    &--4{
+        border-top: 4px solid $color-orange;
+    }
+
+    svg{
+        justify-self: end;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Poppins;
+}
+
+body{
+    min-height: 100vh;
+    background-color: $color-light-gray;
+    padding-top: 4rem;
+}
